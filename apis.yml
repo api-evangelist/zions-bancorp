@@ -79,6 +79,8 @@ apis:
       - type: Documentation
         url: https://www.zionsbank.com/business/treasury/disbursements/wire-transfers/
 common:
+  - type: DomainSecurity
+    url: security/zions-bancorp-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/zions-bancorporation
   - type: Website
