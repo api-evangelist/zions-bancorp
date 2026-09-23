@@ -1,7 +1,9 @@
 ---
 title: Zions Profit 'Marred' by Charge Tied to Bad Loans
 url: https://www.wsj.com/finance/banking/zions-logs-higher-third-quarter-profit-despite-50-million-charge-8d38e852
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Zions Bancorp." press release artificial intelligence'
 position: 5
 source: serpapi-google

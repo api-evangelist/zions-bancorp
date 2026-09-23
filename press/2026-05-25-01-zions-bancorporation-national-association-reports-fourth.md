@@ -1,7 +1,9 @@
 ---
 title: Zions Bancorporation, National Association Reports Fourth ...
 url: https://zionsbancorp.com/news-events/press-releases/news-details/2024/Zions-Bancorporation-National-Association-Reports-Fourth-Quarter-Financial-Results/default.aspx
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Zions Bancorp." press release artificial intelligence'
 position: 1
 source: serpapi-google

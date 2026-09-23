@@ -1,7 +1,9 @@
 ---
 title: Zions Bancorporation, National Association Reports First ...
 url: https://finance.yahoo.com/markets/stocks/articles/zions-bancorporation-national-association-reports-201000841.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Zions Bancorp." press release artificial intelligence'
 position: 4
 source: serpapi-google
