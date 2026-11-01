@@ -1,4 +1,4 @@
-# Zions Bancorporation (zions-bancorp)
+# Zions Bancorporation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,93 +66,105 @@
 
 Zions Bancorporation is one of the nation's premier financial services companies, operating under local management teams and distinct brands in 11 western U.S. states. The company offers a comprehensive suite of banking, treasury management, lending, and wealth management services for individuals, businesses, and public sector clients. Zions provides ERP-to-bank integration capabilities, ACH payment origination, wire transfers, and cash management tools for corporate treasury operations. The company does not currently publish a public REST API developer portal; integrations are delivered via Treasury Internet Banking import/export, NACHA-compliant ACH files, and direct file-transfer arrangements with corporate customers.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/zions-bancorp/refs/heads/main/apis.yml)
+**Areas:** Banking · Financial Services · Treasury Management · Payments · Fortune 1000
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Zions Bancorporation on APIs.io
 
-## Tags:
+Everything profiled for Zions Bancorporation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zions-bancorp/](https://apis.io/providers/zions-bancorp/)** — or go straight to one of the APIs or properties below.
 
- - Banking, Financial Services, Treasury Management, Payments
+### APIs (3)
 
-## Timestamps
+- [Zions Treasury Internet Banking](https://apis.io/apis/zions-bancorp/treasury-internet-banking/) — Zions Treasury Internet Banking provides businesses with a secure online platform for managing treasury operations including ACH payments, domestic and…
+- [Zions ACH Payments](https://apis.io/apis/zions-bancorp/ach-payments/) — Zions ACH Payments is a payment disbursement solution enabling businesses to pay employees, suppliers, vendors, and tax agencies via ACH. Supports import…
+- [Zions Wire Transfer Services](https://apis.io/apis/zions-bancorp/wire-transfers/) — Zions Wire Transfer Services enables businesses to send domestic and international wire transfers efficiently. Supports foreign currency transfers to more…
 
-- **Created:** 2026-05-03
-- **Modified:** 2026-05-03
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Zions Treasury Internet Banking
-Zions Treasury Internet Banking provides businesses with a secure online platform for managing treasury operations including ACH payments, domestic and international wire transfers, account transfers, positive pay, and real-time cash position visibility. Supports ERP integration via import and export of standard file formats for automated payment origination and reconciliation.
+#### Security (1)
 
-**Human URL:** [https://www.zionsbank.com/business/treasury/treasury-internet-banking/](https://www.zionsbank.com/business/treasury/treasury-internet-banking/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Zions Bancorp Domain Security](https://apis.io/security/zions-bancorp/zions-bancorp-domain-security/)
 
- - Treasury Management, ACH, Wire Transfers, Cash Management, Banking
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://www.zionsbank.com/business/treasury/)
-- [Login](https://treasurygateway.zionsbank.com/)
+- [Zions Bancorp Plans Pricing](https://apis.io/plans/zions-bancorp/zions-bancorp-plans-pricing/)
 
-### Zions ACH Payments
-Zions ACH Payments is a payment disbursement solution enabling businesses to pay employees, suppliers, vendors, and tax agencies via ACH. Supports import and export file formats for integration with accounting and ERP software, making cash flow management more efficient, predictable, and cost effective.
+#### Rate limits (1)
 
-**Human URL:** [https://www.zionsbank.com/business/treasury/treasury-management-select/ach-payments/](https://www.zionsbank.com/business/treasury/treasury-management-select/ach-payments/)
+Published request limits.
 
-#### Tags:
+- [Zions Bancorp Rate Limits](https://apis.io/rate-limits/zions-bancorp/zions-bancorp-rate-limits/)
 
- - ACH, Payments, Treasury Management, Banking
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://www.zionsbank.com/business/treasury/treasury-management-select/ach-payments/)
+- [Zions Bancorp Finops](https://apis.io/finops/zions-bancorp/zions-bancorp-finops/)
 
-### Zions Wire Transfer Services
-Zions Wire Transfer Services enables businesses to send domestic and international wire transfers efficiently. Supports foreign currency transfers to more than 60 countries worldwide. Available through Treasury Internet Banking for streamlined origination and status tracking.
+## Where to find this API
 
-**Human URL:** [https://www.zionsbank.com/business/treasury/disbursements/wire-transfers/](https://www.zionsbank.com/business/treasury/disbursements/wire-transfers/)
-
-#### Tags:
-
- - Wire Transfers, International Payments, Banking, Treasury Management
-
-#### Properties
-
-- [Documentation](https://www.zionsbank.com/business/treasury/disbursements/wire-transfers/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.zionsbank.com)
-- [Portal](https://treasurygateway.zionsbank.com/)
 - [Documentation](https://www.zionsbank.com/business/treasury/)
-- [Login](https://www.zionsbank.com/personal/sign-in/)
 - [Support](https://www.zionsbank.com/personal/customer-service/)
-- [TermsOfService](https://www.zionsbank.com/disclosure-documents/)
-- [PrivacyPolicy](https://www.zionsbank.com/about/privacy/)
+- [Terms of service](https://www.zionsbank.com/disclosure-documents/)
+- [Privacy policy](https://www.zionsbank.com/about/privacy/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Treasury Internet Banking | Online treasury management platform with payment origination and reporting. |
-| ACH Origination | NACHA-compliant ACH payment file origination for payroll, vendor, and tax payments. |
-| Wire Transfers | Domestic and international wire transfers including foreign currency. |
-| Positive Pay | Check fraud prevention with issued-check matching and exception review. |
-| ERP Integration | File import/export integration with accounting and ERP systems. |
-| Account Reporting | Real-time visibility into account balances, transactions, and check images. |
+**Kin Score 13.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 21.1 |
 
-| Name | Description |
-|------|-------------|
-| Corporate Treasury Operations | Cash management and payment origination for corporate treasurers. |
-| Public Sector Banking | Treasury and payment services for state, county, and municipal governments. |
-| Small Business Banking | Banking and payment services for small and mid-sized businesses. |
-| Wealth Management | Trust, investment, and wealth advisory services. |
+**Agent readiness 0.6** — human-only
 
-## Maintainers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**FN:** Kin Lane
+**Regulatory alignment 4.7** — Banking & Open Finance
 
-**Email:** kin@apievangelist.com
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zions-bancorp/](https://apis.io/providers/zions-bancorp/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zions Bancorporation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zions-bancorp/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
